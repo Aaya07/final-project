@@ -11870,7 +11870,7 @@ textarea.form-control-lg {
 
 .home-background {
   height: 200vh;
-  background-image: url("../images/Jamilinhome.jpg");
+  background-image: url("/images/Jamilinhome.jpg");
   background-position: center;
   background-size: cover;
 }
