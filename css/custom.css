@@ -11870,7 +11870,7 @@ textarea.form-control-lg {
 
 .home-background {
   height: 200vh;
-  background-image: url("/images/Jamilinhome.jpg");
+  background-image: url("../images/Jamilinhome.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -11884,6 +11884,7 @@ textarea.form-control-lg {
 
 .feng-background {
   background-color: darkgray;
+  background-position: center;
   background-size: cover;
 }
 
@@ -11898,7 +11899,7 @@ textarea.form-control-lg {
   transform: translateX(50%);
 }
 
-.navbar-brand {
+.logo {
   width: 300px;
 }
 
