@@ -6,7 +6,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@700&family=Libre+Baskerville:wght@400;700&family=Libre+Franklin:wght@400;700&family=Source+Sans+3&display=swap');
 
 
-$spacer: 1rem;
+$spacer: 2.2rem;
 $spacers: (
   0: 0,
   1: $spacer * .25,
@@ -70,7 +70,9 @@ $h1-font-size: 4.052rem;
 
 
 
-
+.navbar-brand{
+  width: 20rem;
+}
 
 .navbar-nav {
   font-family: 'Libre franklin', sans-serif;
@@ -83,7 +85,7 @@ align-items:center;
 
  }
 
-.logo{
+.navbar-brand{
   width: 20rem;
 }
  .navbar .navbar-nav .nav-item {
