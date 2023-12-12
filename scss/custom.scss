@@ -78,7 +78,7 @@ $h1-font-size: 4.052rem;
   font-family: 'Libre franklin', sans-serif;
 }
 
-@media (min-width: 38em) {
+@media (min-width: 60em) {
  .navbar .container-fluid {
 flex-direction: column ;
 align-items:center;
@@ -91,23 +91,21 @@ align-items:center;
  }
 }
 
-@media (min-width: 60em) {
-
-  
-}
 
 .navbar .navbar-nav .nav-link .active {
 font-size: 1em;
-font-family: 'Libre franklin', sans-serif; ;
+font-family: 'Libre franklin', sans-serif;
 
 }
 .navbar .navbar-nav{
   margin-top: 1em;
 
 }
-
-   
-  
+.body-copy{
+  font-family:'Libre franklin', sans-serif;
+  font-size: 1.25em;
+  padding-top: 20px;
+}
 
 .card {
   flex: 1 0 auto;

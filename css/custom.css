@@ -11906,7 +11906,7 @@ textarea.form-control-lg {
   font-family: "Libre franklin", sans-serif;
 }
 
-@media (min-width: 38em) {
+@media (min-width: 60em) {
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar .container-xxl {
     flex-direction: column;
     align-items: center;
@@ -11922,6 +11922,12 @@ textarea.form-control-lg {
 
 .navbar .navbar-nav {
   margin-top: 1em;
+}
+
+.body-copy {
+  font-family: "Libre franklin", sans-serif;
+  font-size: 1.25em;
+  padding-top: 20px;
 }
 
 .card {
