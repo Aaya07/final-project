@@ -3,6 +3,162 @@
 
 // Include any default variable overrides here (though functions won't be available)
 
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dancing+Script:wght@700&family=Libre+Baskerville:wght@400;700&family=Libre+Franklin:wght@400;700&family=Source+Sans+3&display=swap');
+
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer, 
+  4: $spacer * 1.5,
+  5: $spacer * 4,
+);
+
+$headings-font-family: 'Libre franklin', sans-serif;
+$font-family-base: 'Source Sans 3', sans-serif;
+
+
+
+$h1-font-size: 4.052rem;
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+* {
+  box-sizing: border-box;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+  background-color: #fff;
+  
+}
+.home-background {
+  height: 200vh;
+  background-image: url("../images/jamilinhome.jpg");
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.about-background {
+  height: 200vh;
+  background-image: url("../images/Fengshui.jpg");
+  background-position: center;
+  background-size: cover;
+   }
+
+   .feng-background{
+    background-color: darkgray;
+    background-size: cover;
+   }
+.banner-content {
+  position: relative;
+}
+
+.banner-content .btn {
+  position: absolute;
+  bottom: -60px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.navbar-brand {
+  width: 300px;
+ 
+}
+
+
+
+.navbar-nav {
+  font-family: 'Libre franklin', sans-serif;
+}
+
+@media (min-width: 38em) {
+ .navbar .container-fluid {
+flex-direction: column ;
+align-items:center;
+
+ }
+
+
+ .navbar .navbar-nav .nav-item {
+  padding: 0.5em;
+ }
+}
+
+@media (min-width: 60em) {
+
+  
+}
+
+.navbar .navbar-nav .nav-link .active {
+font-size: 1em;
+font-family: 'Libre franklin', sans-serif; ;
+
+}
+.navbar .navbar-nav{
+  margin-top: 1em;
+
+}
+
+   
+  
+
+.card {
+  flex: 1 0 auto;
+  background-color:#D9D2C3;
+  padding: 30px;
+   margin: 40px;
+   
+}
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.card-title {
+  padding-top: 10px;
+  font-family: 'Libre franklin', sans-serif;
+  font-weight: bold;
+  align-self: center;
+  padding-left: 40px;
+}
+.card-img-top{
+  width: 14rem;
+  height: 14rem;
+  padding-right: 10px;
+}
+
+
+.btn {
+ font-size: 2.5rem;
+ font-weight: bold;
+ border: 5px solid;
+ padding-left: 75px;
+ padding-right: 75px;
+ margin: -45px;
+ margin-right: 10px;
+}
+
+.social-icons{
+
+width: 30px;
+height: 30px;
+margin-bottom: 20px;
+float: right;
+
+
+}
+
+.copyright {
+  float: left;
+  font-family: 'Libre franklin', sans-serif;;
+  padding: 10px;
+  color: black;
+}
