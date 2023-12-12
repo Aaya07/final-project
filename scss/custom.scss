@@ -68,10 +68,7 @@ $h1-font-size: 4.052rem;
   transform: translateX(50%);
 }
 
-.logo {
-  width: 300px;
- 
-}
+
 
 
 
@@ -86,7 +83,9 @@ align-items:center;
 
  }
 
-
+.logo{
+  width: 20rem;
+}
  .navbar .navbar-nav .nav-item {
   padding: 0.5em;
  }

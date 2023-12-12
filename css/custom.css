@@ -11899,10 +11899,6 @@ textarea.form-control-lg {
   transform: translateX(50%);
 }
 
-.logo {
-  width: 300px;
-}
-
 .navbar-nav {
   font-family: "Libre franklin", sans-serif;
 }
@@ -11911,6 +11907,9 @@ textarea.form-control-lg {
   .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl, .navbar .container-xxl {
     flex-direction: column;
     align-items: center;
+  }
+  .logo {
+    width: 20rem;
   }
   .navbar .navbar-nav .nav-item {
     padding: 0.5em;
